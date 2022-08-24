@@ -1,3 +1,5 @@
+const audio = document.getElementById('music')
+audio.volume = 0.1
 
 function switchTheme(){
   document.body.classList.toggle('light-theme')
@@ -6,8 +8,7 @@ function switchTheme(){
   const theme = document.body.className;
 
   const music = theme === 'light-theme' ? 'normal-world.mpeg' : 'inverted-world.mpeg'
-  const audio = document.getElementById('music')
   audio.src = `assets/musics/${music}`
   audio.play()
-  audio.volume = 0.2
+  audio.volume = 0.1
 }
