@@ -80,12 +80,15 @@ h1, h2, h3{
   margin-bottom: 40px;
 }
 
+p, input, textarea, label{
+  font-family: "Libre Baskerville", serif;
+}
+
 p{
   color: var(--highlight-color);
 }
 
-p, input, textarea, label{
-  font-family: "Libre Baskerville", serif;
+input, textarea, label{
   color: var(--primary-color-contrast);
 }
 
