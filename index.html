@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Mundo Invertido</title>
 </head>
 <body class="light-theme">
   <header>
-    <audio src="assets/musics/normal-world.mpeg" id="music" autoplay></audio>
+    <audio src="assets/musics/normal-world.mpeg" id="music"></audio>
     <div class="header-content">
       <img class="inverted-element" src="assets/images/banner/logo.svg" alt="Imagem principal do Mundo Invertido.">
       <p class="inverted-element">
@@ -72,7 +72,7 @@
       <div class="form-content">
         <h3>Entre para o clube de D&D e tenha experiências de <span>outro mundo</span></h3>
         <div class="form-container">
-          <form>
+          <form action="">
             <label for="name">Nome Completo</label>
             <input type="text" name="name" id="txtName">
             <label for="email">E-Mail</label>
@@ -81,7 +81,7 @@
             <input type="text" name="level" id="txtLevel">
             <label for="character">Personagem</label>
             <textarea name="character" id="txtCharacter" cols="30" rows="10"></textarea>
-            <button id="btnSubscribe">Me inscrever</button>
+            <button id="btnSubscribe" type="button">Me inscrever</button>
           </form>
         </div>
       </div>
@@ -92,6 +92,6 @@
     <p>Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO.</p>
     <img src="assets/images/footer/logo.svg" alt="Logo da DIO">
   </footer>
-  <script src="assets/JS/main.js"></script>
+  <script type="module" src="assets/JS/main.js"></script>
 </body>
 </html>

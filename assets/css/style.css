@@ -86,6 +86,7 @@ p{
 
 p, input, textarea, label{
   font-family: "Libre Baskerville", serif;
+  color: var(--primary-color-contrast);
 }
 
 button{
